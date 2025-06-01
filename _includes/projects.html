@@ -1,44 +1,28 @@
-{% if site.data.projects.main %}
-<h2 id="projects">Projects</h2>
-<div class="publications">
+<h2>Projects</h2>
 
-  {% for project in site.data.projects.main %}
-    <div class="publication">
-      <div class="img">
-        {% if project.image %}
-          <img src="{{ project.image | relative_url }}" alt="project image" />
+{% for item in site.data.projects.main %}
+  <div class="publications">
+    <div class="row">
+      {% if item.image %}
+        <div class="col">
+          <img src="{{ item.image }}" style="max-height: 160px;" />
+        </div>
+      {% endif %}
+      <div class="col" style="margin-left: 20px;">
+        <b>{{ item.title }}</b><br>
+        <i>{{ item.authors }}</i><br>
+        <p style="margin-top: 0.5em;">{{ item.description }}</p>
+        {% if item.external_link %}
+          <a href="{{ item.external_link }}" class="btn">External Link</a>
         {% endif %}
-      </div>
-      <div class="desc">
-        <p class="title">
-          <strong>{{ project.title }}</strong>
-          {% if project.notes %}
-            <span style="font-style: italic;"> – {{ project.notes }}</span>
-          {% endif %}
-        </p>
-
-        {% if project.authors %}
-          <p class="authors">{{ project.authors }}</p>
+        {% if item.pdf %}
+          <a href="{{ item.pdf }}" class="btn">PDF</a>
         {% endif %}
-
-        {% if project.description %}
-          <p>{{ project.description }}</p>
+        {% if item.notes %}
+          <span style="color: orangered; font-style: italic;">{{ item.notes }}</span>
         {% endif %}
-
-        <p>
-          {% if project.pdf %}
-            <a class="button" href="{{ project.pdf }}">PDF</a>
-          {% endif %}
-          {% if project.code %}
-            <a class="button" href="{{ project.code }}">Code</a>
-          {% endif %}
-          {% if project.external_link %}
-            <a class="button" href="{{ project.external_link }}">Link</a>
-          {% endif %}
-        </p>
       </div>
     </div>
-  {% endfor %}
-
-</div>
-{% endif %}
+  </div>
+  <br>
+{% endfor %}
