@@ -1,0 +1,44 @@
+{% if site.data.projects.main %}
+<h2 id="projects">Projects</h2>
+<div class="publications">
+
+  {% for project in site.data.projects.main %}
+    <div class="publication">
+      <div class="img">
+        {% if project.image %}
+          <img src="{{ project.image | relative_url }}" alt="project image" />
+        {% endif %}
+      </div>
+      <div class="desc">
+        <p class="title">
+          <strong>{{ project.title }}</strong>
+          {% if project.notes %}
+            <span style="font-style: italic;"> – {{ project.notes }}</span>
+          {% endif %}
+        </p>
+
+        {% if project.authors %}
+          <p class="authors">{{ project.authors }}</p>
+        {% endif %}
+
+        {% if project.description %}
+          <p>{{ project.description }}</p>
+        {% endif %}
+
+        <p>
+          {% if project.pdf %}
+            <a class="button" href="{{ project.pdf }}">PDF</a>
+          {% endif %}
+          {% if project.code %}
+            <a class="button" href="{{ project.code }}">Code</a>
+          {% endif %}
+          {% if project.external_link %}
+            <a class="button" href="{{ project.external_link }}">Link</a>
+          {% endif %}
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>
+{% endif %}
