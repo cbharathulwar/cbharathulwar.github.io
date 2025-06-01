@@ -1,17 +1,19 @@
 main:
+  projects:
+    - title: "Quantum Quest: A High Schooler's Physics Adventure"
+      authors: Chinmay Bharathulwar
+      description: |
+        A 100-page book introducing high school students to the core ideas of theoretical physics — from wave mechanics to black holes. Written to make abstract physics concepts accessible and engaging for young learners.
+      pdf: /files/quantum_quest_sample.pdf
+      external_link: https://www.amazon.com/dp/your-book-id
+      image: ./assets/img/quantumquest.jpg
+      notes: Amazon #1 Bestseller in Wave Mechanics and Gravity
+      type: Book
 
-  Conference Reviewers:
-    
-      - title: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021-2023
-        link: http://cvpr2023.thecvf.com/
-      - title: IEEE/CVF International Conference on Computer Vision (ICCV) 2021
-        link: http://iccv2021.thecvf.com/
-      - title: European Conference on Computer Vision (ECCV) 2022
-        link: https://eccv2022.ecva.net/
-
-  Journal Reviewers:
-
-      - title: IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
-        link: https://www.computer.org/csdl/journal/tp
-      - title: International Journal of Computer Vision (IJCV)
-        link: https://www.springer.com/journal/11263
+    - title: "Motion and Metrics: Exploring Physics in Sports"
+      description: |
+        A blog exploring the intersection of physics, sports, and strategy. covering topics like the angular momentum of a basketball shot, the fluid dynamics of F1 aerodynamics, and the biomechanics behind elite athletic performance.
+      link: https://motionandmetrics.example.com
+      image: ./assets/img/motionandmetrics.png
+      notes: Ongoing — new articles published monthly
+      type: Blog
