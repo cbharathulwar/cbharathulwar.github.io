@@ -6,9 +6,9 @@ main:
     conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2024.
     pdf: https://arxiv.org/pdf/2410.18137
     code: https://github.com/shreyvish5678/SR-NeRF-with-Variational-Diffusion-Strategies
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+    bibtex: ./assets/files/nerf.bib
+    image: ./assets/img/RSD-Horns-Out.png
+    # notes: 
 
   - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
     authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
