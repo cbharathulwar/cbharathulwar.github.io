@@ -8,6 +8,8 @@ main:
     code: https://github.com/shreyvish5678/SR-NeRF-with-Variational-Diffusion-Strategies
     bibtex: ./assets/files/nerf.bib
     image: ./assets/img/RSD-Horns-Out.png
+    abstract: >
+  We present a variational diffusion strategy to improve neural radiance field reconstruction...
     # notes: 
 
   - title: "Enhancing Particle Tracking With Gnns Using Attention And Sparsification"
@@ -20,4 +22,7 @@ main:
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Manuscript, In Progress
     image: ./assets/img/graphscreenshot.png
+    abstract: >
+  We present a variational diffusion strategy to improve neural radiance field reconstruction...
+    
 
