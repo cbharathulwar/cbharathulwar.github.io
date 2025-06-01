@@ -8,6 +8,11 @@ main:
     code: https://github.com/shreyvish5678/SR-NeRF-with-Variational-Diffusion-Strategies
     bibtex: ./assets/files/nerf.bib
     image: ./assets/img/RSD-Horns-Out.png
+    abstract: |
+    <details>
+      <summary><strong>Abstract</strong></summary>
+      We propose a variational diffusion framework to improve neural radiance field super-resolution. Our method introduces [key idea] and achieves state-of-the-art results on [dataset]. This work advances the use of probabilistic models in NeRF pipelines.
+    </details>
     # notes: 
 
   - title: "Enhancing Particle Tracking With Gnns Using Attention And Sparsification"
@@ -20,3 +25,8 @@ main:
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Manuscript, In Progress
     image: ./assets/img/graphscreenshot.png
+    abstract: |
+    <details>
+      <summary><strong>Abstract</strong></summary>
+      We propose a variational diffusion framework to improve neural radiance field super-resolution. Our method introduces [key idea] and achieves state-of-the-art results on [dataset]. This work advances the use of probabilistic models in NeRF pipelines.
+    </details>
