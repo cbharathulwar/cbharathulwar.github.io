@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi! I’m Chinmay, an incoming freshman at the University of Maryland. I plan on double majoring in Physics and Math. I love learning about theoretical physics, specifically high energy and condensed matter physics. Additionally, I am interested in the use of AI and Machine Learning in theoretical physics. I’m also a diehard Knicks and Dolphins fan and love watching basketball, football, and Formula 1.
+Hi! I’m Chinmay, an undergraduate freshman at the University of Maryland. I plan on double majoring in Physics and Math. I love learning about theoretical physics, specifically high energy and condensed matter physics. Additionally, I am interested in the use of AI and Machine Learning in theoretical physics. I’m also a diehard Knicks and Dolphins fan and love watching basketball, football, and Formula 1.
 
 ## Research Interests
 
