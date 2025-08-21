@@ -10,15 +10,3 @@ main:
     image: ./assets/img/RSD-Horns-Out.png
     # notes: 
 
-  - title: "Enhancing Particle Tracking With Gnns Using Attention And Sparsification"
-    authors: <strong>Chinmay Bharathulwar</strong>
-    # conference_short: CVPR
-    # conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: ./assets/files/Enhancing Particle Tracking with GNNs using Attention and Sparsification.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Manuscript, In Progress
-    image: ./assets/img/graphscreenshot.png
-    
-
