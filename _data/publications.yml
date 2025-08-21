@@ -1,9 +1,9 @@
 main:
 
   - title: Advancing Super-Resolution in Neural Radiance Fields via Variational Diffusion Strategies
-    authors: Shrey Vishen, <strong>Chinmay Bharathulwar*</strong>, Jatin Sarabu, Saurav Kumar, Rithwick Lakshmanan, Vishnu Srinivas
+    authors: Shrey Vishen, <strong>Chinmay Bharathulwar</strong>, Jatin Sarabu, Saurav Kumar, Rithwick Lakshmanan, Vishnu Srinivas
     conference_short: WACV
-    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2024.
+    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2410.18137
     code: https://github.com/shreyvish5678/SR-NeRF-with-Variational-Diffusion-Strategies
     bibtex: ./assets/files/nerf.bib
@@ -11,7 +11,7 @@ main:
     # notes: 
 
   - title: "Enhancing Particle Tracking With Gnns Using Attention And Sparsification"
-    authors: <strong>Chinmay Bharathulwar*</strong>
+    authors: <strong>Chinmay Bharathulwar</strong>
     # conference_short: CVPR
     # conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
     pdf: ./assets/files/Enhancing Particle Tracking with GNNs using Attention and Sparsification.pdf
