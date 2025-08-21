@@ -1,18 +1,7 @@
 main:
 
-  - title: "Quantum Quest: A High Schooler's Physics Adventure"
-    authors: "Chinmay Bharathulwar"
-    pdf: "https://www.amazon.com/dp/your-book-id"
-    image: "./assets/img/quantumquest.jpg"
-    notes: "Amazon #1 Bestseller in Wave Mechanics and Gravity"
-
   - title: "Motion and Metrics"
     authors: "<strong>Chinmay Bharathulwar*</strong>"
-    # conference_short: CVPR
-    # conference: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020."
-    pdf: "https://motionandmetrics.example.com"
-    # code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
-    # page: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-    # bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-    notes: "Ongoing — new articles published monthly"
+    pdf: "https://chinmaybharathulwar.wixsite.com/motion-and-metrics
+    notes: "Ongoing — new articles published weekly"
     image: "./assets/img/motionandmetrics.png"
