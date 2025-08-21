@@ -16,10 +16,10 @@ Hi! I’m Chinmay, an undergraduate freshman at the University of Maryland. I pl
 
 ## Current Work
 
-Currently, I am working on using GNNs and Attention mechanisms to improve LHC reconstruction accuracy and efficiency. I am also in the process of editing my book that I wrote that seeks to explain theoretical physics at a more accessible level.
+Currently, I am working on using GNNs and Attention mechanisms to improve LHC reconstruction accuracy and efficiency. I am also looking for research groups where I can actively contribute and learn!
 
 ## Other
 
-If you want to learn more about the intersection of sports, science, and math check out my blog!
+If you’re interested in the intersection of sports, science, and math, check out my blog!  
 
-- Feel free to contact me about any questions.
+Feel free to reach out — I’m always happy to talk about physics, computation, or research opportunities.  
